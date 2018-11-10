@@ -2,11 +2,6 @@
 /* code for index.html, contact.html and product.html */
 /* background video */
 
-@font-face {
-		font-family: Berlin sans;
-		src: url(../fonts/BRLNSR.ttf);
-	}
-	
 	#video{
 		position: fixed;
 		float: left;
