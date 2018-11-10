@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>		
+		<meta name="author" content="Chris Lips">
+		<meta name="keywords" content="games, chess, mario, entertainment, boardgames, controller, mobile, skeeball, beerpong">
+		<meta name="description" content="This is the webmarkup end assignment. This website shows allot of ways to be entertained. For any questions you can contact via the contact page.">
+		<meta charset="UTF-8">
+		<title>Chris Lips INF1sa</title>
+
+		<link rel="stylesheet" type="text/css" href="css/PC-Stylesheet.css"> <!-- PC -->
+		<link rel="stylesheet" type="text/css" href="css/Tablet-Stylesheet.css"> <!-- TABLET -->
+		<link rel="stylesheet" type="text/css" href="css/Mobile-Stylesheet.css"> <!-- MOBILE -->
+		<link rel="stylesheet" type="text/css" href="css/Stylesheet.css"> <!-- GENERAL -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" sizes="16x16 24x24 32x32 48x48 64x64"/>
+	</head>
+	<body>
+		<!-- video background -->
+		<video autoplay muted loop id="video" class="notfortablet notformobile">
+			<source src="movie/background-compressed.mp4" type="video/mp4">
+		</video>
+		<aside></aside>
+			<main>
+				<header class="header">
+					<h1 class="company">COMPANY NAME</h1>
+				</header>
+				<!-- Nav bar -->
+				<nav>	
+					<ul>
+						<section class="wholedropdown notfortablet notforpc">
+							<label>
+								<p class="hamburgericon notforpc notfortablet"></p>
+								<p class="hamburgericon notforpc notfortablet"></p>
+								<p class="hamburgericon notforpc notfortablet"></p>
+							</label>
+								<article class="dropdownbar">
+									<a href="index.html" class="options">Home</a>
+									<a href="product.html" class="options">Products</a>
+									<a href="https://www.blogger.com" class="options">Blog</a>
+								</article>
+						</section>
+						<li><a href="index.html" class="notformobile">HOME</a></li>
+						<li><a href="product.html" class="notformobile">PRODUCT</a></li>
+						<li><a href="https://www.blogger.com" class="notformobile">BLOG</a></li>
+					</ul>
+				</nav>		
+					<h2 class="titles notfortablet">CONTACT</h2>
+					<!-- The form -->
+					<section class="totalform">
+						<article class="moreinformation notfortablet notformobile">More information</article>	
+							<form action="nowhere.php" method="post">
+								<fieldset class="contactFormFieldset">
+									<!-- dropdown menu -->
+									<label class="selecttopic">Select topic</label>
+									<select class="dropmenu">
+										<option value="general">General inquiries</option>
+										<option value="press">Press relations</option>
+										<option value="recruitement">Recruitement</option>
+									</select>
+								</fieldset>
+								<fieldset class="contactFormFieldset">
+									<input
+											class="inputs"
+											type="text"
+											name="contactFormName"
+											placeholder="Your name.."
+									/>
+								</fieldset>
+								<fieldset class="contactFormFieldset">
+									<input
+											class="inputs"
+											type="email"
+											name="email"
+											placeholder="Your email.."
+									/>
+								</fieldset>
+								<fieldset class="contactFormFieldset">
+									<textarea
+											class="inputs heighttextarea"
+											rows="7"
+											cols="40"
+											name="message"
+											placeholder="Write something.."
+									></textarea>
+								</fieldset>
+								<!-- button -->
+								<input
+										class="button"
+										type="submit"
+										value="Submit"
+								/>
+							</form>	
+					</section>	
+				<footer>
+					&copy; 2018 - Chris Lips - Inholland 
+				</footer>
+			</main>
+		<aside></aside>
+	</body>
+</html>

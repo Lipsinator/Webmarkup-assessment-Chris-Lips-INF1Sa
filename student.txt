@@ -1,0 +1,3 @@
+student name : Chris Lips 
+student number : 623434
+student class : INF1sa

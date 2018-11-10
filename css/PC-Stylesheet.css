@@ -1,0 +1,449 @@
+@media only screen and (min-width: 961px) {
+/* code for index.html, contact.html and product.html */
+/* background video */
+	#video{
+		position: fixed;
+		float: left;
+		width: 100%;
+		z-index: -100;
+	}
+
+	main{
+		height: auto;
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+
+	aside{
+		float: left;
+		width: 25%;
+		height: 30px;
+	}
+
+	body{
+		background-image: url("../img/background.jpeg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 0px;
+	}
+
+	footer{
+		font-family: Arial, serif;
+		font-size: 2em;
+		color: #ffffff;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		list-style-type: none;
+		background-color: #000000;
+		width: fill;
+		overflow: hidden; 
+		border-style: solid;
+		border-color: #ffffff;
+		border-width: 1px;
+		float: left;
+		width: 99.8%;
+	}
+
+	.company{
+		color: #ffffff;
+		font-size: 6em;
+		font-family: Berlin sans, serif;
+		text-align: center;
+		height: cover;
+		padding-top: 50px;
+		text-shadow:
+			-3px -3px 0 #000,
+			3px -3px 0 #000,
+			-3px 3px 0 #000,
+			3px 3px 0 #000;
+	}
+
+	ul{
+		font-family: Arial, serif;
+		font-size: 2em;
+		list-style-type: none;
+		background-color: #707070;
+		width: fill;
+		margin: 0;
+		padding: 0;
+		overflow: hidden; 
+		border-style: solid;
+		border-color: #ffffff;
+		border-width: 1px;
+	}
+
+	li{
+		float: center;
+		vertical-align: center;
+		display: inline-block;
+	}
+
+
+	li a {
+		display: block;
+		color: #ffffff;
+		text-align: center;
+		padding: 12px 16px;
+		text-decoration: none;
+	}
+
+	.header{
+		background-image: url("../img/companylogoBG.jpg");
+		background-size: cover;
+		background-position: center;
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+
+	.titles{
+		background-color: #2699fb;
+		height: auto;	
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-family: Arial, serif;
+		font-size: 4em;
+		color: #ffffff;
+	}
+
+	.contactheader{
+		background-color: #2699fb;
+		height: auto;	
+		float: left;
+		width: 99.8%;
+		margin: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-family: Arial;
+		font-size: 4em;
+		color: #ffffff;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #ffffff;
+	}
+
+
+
+	/* code for index.html */
+	#foto1{
+		width: 100%;
+		height: 450px;
+		background-image: url("../img/product3.jpg");
+		background-size: cover;
+		background-position: center;
+		float: left;
+	}
+
+	#foto2{
+		width: 100%;
+		height: 450px;		
+		background-image: url("../img/product8.jpg");
+		background-size: cover;
+		background-position: center;
+		float: left;
+	}
+
+	#foto3{
+		width: 100%;
+		height: 450px;		
+		background-image: url("../img/product6.jpg");
+		background-size: cover;
+		background-position: center;
+		float: left;
+	}
+
+	#foto4{
+		width: 100%;
+		height: 450px;		
+		background-image: url("../img/product9.jpg");
+		background-size: cover;
+		background-position: center;
+		float: left;
+	}
+
+	/* code for contact.html */
+	.moreinformation{
+		font-family: arial, serif;
+		float: left;
+		font-size: 2em;
+		color: #707070;
+		padding-left: 25px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		text-align: left;
+		width: 100%;
+	}
+
+	.inputs{
+		font-family: arial, serif;
+		font-size: 2em;
+		text-align: left;
+		color: #AAAAAA;
+		border-style: none;
+		width: 100%;
+		float: left;
+	}
+
+	.heighttextarea{
+		height: 150px;
+	}
+
+	.contactFormFieldset{
+		margin-top: 30px;
+		background-color: #ffffff;		
+	}
+
+
+	.selecttopic{
+		font-family: arial, serif;
+		font-size: 2em;
+		text-align: left;
+		float: left;
+		color: #AAAAAA;
+	}
+
+	.dropmenu{
+		font-family: arial, serif;
+		font-size: 2em;
+		width: 65%;
+		float: right;
+		color: #707070;
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	.button{
+		float: left;
+		font-family: arial, serif;
+		font-size: 2em;
+		height: 60px;
+		color: #ffffff;
+		background-color: #2699FB; 
+		margin-top: 30px;
+		margin-bottom: 60px;
+		width: 100%
+		
+	}
+
+	.totalform{
+		background-color: #f5f5f5;
+		border-style: solid;
+		border-color: #000000;
+		border-width: 1px;
+		font-family: arial, serif;
+		float: left;
+		width: 99.8%;
+	}
+
+	form{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+
+
+	/* code for product.html */
+	.foto5{
+		background-image: url("../img/product1.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-top: 1.3em;
+		margin-bottom: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto6{
+		background-image: url("../img/product2.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-top: 1.3em;
+		margin-bottom: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+
+	}
+	.foto7{
+		background-image: url("../img/product3.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 0.94em;
+		margin-right: 0.94em;
+		margin-top: 1.3em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto8{
+		background-image: url("../img/product4.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto9{
+		background-image: url("../img/product5.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto10{
+		background-image: url("../img/product6.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 0.94em;
+		margin-right: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto11{
+		background-image: url("../img/product7.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto12{
+		background-image: url("../img/product8.jpg");
+		width: 31%;
+		height: 12em;	
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto13{
+		background-image: url("../img/product9.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 0.94em;
+		margin-right: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto14{
+		background-image: url("../img/product10.jpg");
+		width: 31%;
+		height: 12em;	
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 1.3em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto15{
+		background-image: url("../img/product11.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 1.3em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+	.foto16{
+		background-image: url("../img/product12.jpg");
+		width: 31%;
+		height: 12em;		
+		background-size: cover;
+		background-position: center;
+		float: left;
+		margin-left: 0.94em;
+		margin-bottom: 1.3em;
+		margin-right: 0.94em;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
+	}
+
+	.productcatalog{
+		background-color: #2699fb;
+		height: auto;	
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-family: Arial;
+		font-size: 5em;
+		color: #ffffff;
+		border-style: solid;
+		border-color: #ffffff;
+		border-width: 1px;
+	}
+
+	.background{
+		background-color: #ffffff;
+		float: left;
+		width: 100%;
+		border-style: solid;
+		border-color: #707070;
+		border-width: 1px;
+		border-top: 0;
+		border-bottom: 0;
+	}
+
+	/* not for pc */
+	.notforpc{
+		display: none;
+	}
+
+}
+
+

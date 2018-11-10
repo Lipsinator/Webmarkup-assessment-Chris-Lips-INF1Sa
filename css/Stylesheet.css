@@ -1,0 +1,32 @@
+/* this code is the same on all platforms */
+@font-face {
+		font-family: Berlin sans;
+		src: url(../fonts/BRLNSR.ttf);
+	}
+
+
+	h1{
+		font-weight: normal;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	h2{
+		font-weight: normal;
+		padding: 0px;
+		margin: 0px;
+	}
+
+		/* makes the text in the form boxes grey */
+	::placeholder {
+		color: #AAAAAA;
+		opacity: 1; /* Firefox */
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: #AAAAAA;
+	}
+
+	::-ms-input-placeholder { /* Microsoft Edge */
+		color: #AAAAAA;
+	}
