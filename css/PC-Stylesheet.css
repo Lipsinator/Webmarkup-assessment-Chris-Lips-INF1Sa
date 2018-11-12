@@ -237,26 +237,20 @@
 		margin-right: 10%;
 	}
 
-
-
 	/* code for product.html */
-	.fotosproducts{
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-
 	#foto5{
-		margin-top: -20px;
+		margin-top: -10px;
 		width: 100%;
 	}
 
 	#foto6{
 		height: 100%;
+		margin-left: -8px;
 	}
 
 	#foto7{
 		height: 100%;
+		margin-left: -50px;
 	}
 
 	#foto8{
@@ -277,33 +271,39 @@
 
 	#foto12{
 		width: 100%;
+		margin-top: -15px;
 	}
 
 	#foto13{
-		width: 100%;
-
+		height: 100%;
+		margin-left: -45px;
 	}
 
 	#foto14{
-		width: 100%;
-
+		height: 100%;
+		margin-left: -25px;
+		margin-bottom: -15px;
 	}
 
 	#foto15{
 		width: 100%;
-
+		margin-top: -120px;
 	}
 
 	#foto16{
 		width: 100%;
-
 	}
 
 	.box{
-		width: 30%;	
+		width: 31%;	
 		height: 12em;
 		overflow: hidden;	
 		float: left;
+		margin-left: 15px;
+		margin-top: 15px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #707070;
 	}
 
 	.productcatalog{
@@ -325,9 +325,10 @@
 	.background{
 		background-color: #ffffff;
 		float: left;
+		height: 851px;
 		width: 99.8%;
 		border-style: solid;
-		border-color: #707070;
+		border-color: #ffffff;
 		border-width: 1px;
 		border-top: 0;
 		border-bottom: 0;
