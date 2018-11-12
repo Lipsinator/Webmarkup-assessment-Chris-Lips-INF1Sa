@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:  /inholland 
 
-Sitemap: https://thechriskip.github.io/Webmarkup-assessment-Chris-Lips-INF1Sa//sitemap.xml
+Sitemap: https://thechriskip.github.io/Webmarkup-assessment-Chris-Lips-INF1Sa/sitemap.xml
