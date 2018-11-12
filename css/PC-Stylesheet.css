@@ -60,18 +60,23 @@
 			3px 3px 0 #000;
 	}
 
+	nav{
+		background-color: #707070;
+		width: 99.8%;
+		border-style: solid;
+		border-color: #ffffff;
+		border-width: 1px;
+		float: left;
+	}
+
 	ul{
 		font-family: Arial, serif;
 		font-size: 2em;
 		list-style-type: none;
-		background-color: #707070;
-		width: fill;
 		margin: 0;
 		padding: 0;
 		overflow: hidden; 
-		border-style: solid;
-		border-color: #ffffff;
-		border-width: 1px;
+
 	}
 
 	li{
@@ -235,180 +240,37 @@
 
 
 	/* code for product.html */
-	.foto5{
-		background-image: url("../img/product1.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-top: 1.3em;
-		margin-bottom: 0.94em;
+	.fotosproducts{
 		border-style: solid;
 		border-width: 1px;
 		border-color: #707070;
 	}
-	.foto6{
-		background-image: url("../img/product2.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-top: 1.3em;
-		margin-bottom: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
 
+	#foto5{
+		margin-top: -20px;
+		width: 100%;
 	}
-	.foto7{
-		background-image: url("../img/product3.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 0.94em;
-		margin-right: 0.94em;
-		margin-top: 1.3em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto7{
+		height: 100%;
 	}
-	.foto8{
-		background-image: url("../img/product4.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
+
+	.box{
+		width: 30%;	
+		height: 12em;
+		overflow: hidden;	
 		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto9{
-		background-image: url("../img/product5.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto10{
-		background-image: url("../img/product6.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 0.94em;
-		margin-right: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto11{
-		background-image: url("../img/product7.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto12{
-		background-image: url("../img/product8.jpg");
-		width: 31%;
-		height: 12em;	
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto13{
-		background-image: url("../img/product9.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 0.94em;
-		margin-right: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto14{
-		background-image: url("../img/product10.jpg");
-		width: 31%;
-		height: 12em;	
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 1.3em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto15{
-		background-image: url("../img/product11.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 1.3em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto16{
-		background-image: url("../img/product12.jpg");
-		width: 31%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 0.94em;
-		margin-bottom: 1.3em;
-		margin-right: 0.94em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
 	}
 
 	.productcatalog{
 		background-color: #2699fb;
 		height: auto;	
 		float: left;
-		width: 100%;
+		width: 99.8%;
 		margin: 0;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		font-family: Arial;
+		font-family: Arial, serif;
 		font-size: 5em;
 		color: #ffffff;
 		border-style: solid;
@@ -419,7 +281,7 @@
 	.background{
 		background-color: #ffffff;
 		float: left;
-		width: 100%;
+		width: 99.8%;
 		border-style: solid;
 		border-color: #707070;
 		border-width: 1px;

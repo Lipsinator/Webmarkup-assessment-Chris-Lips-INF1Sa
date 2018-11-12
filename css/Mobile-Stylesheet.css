@@ -35,17 +35,21 @@
 
 	}
 
-	ul{
-		list-style-type: none;
+	nav{
 		background-color: #707070;
-		width: fill;
-		margin: 0;
-		padding: 0;
-		overflow: hidden; 
+		width: 97.8%;
+		height: 40px;
 		border-style: solid;
 		border-color: #ffffff;
 		border-width: 4px;
-		height: 40px;
+		float: left;
+	}
+
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden; 		
 	}
 
 	li{
