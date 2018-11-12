@@ -127,43 +127,30 @@
 		border-color: #ffffff;
 	}
 
-
-
 	/* code for index.html */
+	.fotosindex{
+		width: 100%;
+		float: left;
+	}
+
+	.fotos{
+		height: 400px;
+		overflow: hidden;
+		float: left;
+		margin: auto;
+	}
+
 	#foto1{
-		width: 100%;
-		height: 450px;
-		background-image: url("../img/product3.jpg");
-		background-size: cover;
-		background-position: center;
-		float: left;
+		margin-top: -35px;
 	}
-
 	#foto2{
-		width: 100%;
-		height: 450px;		
-		background-image: url("../img/product8.jpg");
-		background-size: cover;
-		background-position: center;
-		float: left;
+		margin-top: -150px;
 	}
-
 	#foto3{
-		width: 100%;
-		height: 450px;		
-		background-image: url("../img/product6.jpg");
-		background-size: cover;
-		background-position: center;
-		float: left;
+		margin-top: -115px;
 	}
-
 	#foto4{
-		width: 100%;
-		height: 450px;		
-		background-image: url("../img/product9.jpg");
-		background-size: cover;
-		background-position: center;
-		float: left;
+		margin-top: -60px;
 	}
 
 	/* code for contact.html */
