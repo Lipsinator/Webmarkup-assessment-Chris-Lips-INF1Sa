@@ -37,6 +37,11 @@
 		position: absolute;
 	}
 
+	
+	a{
+		text-decoration: none;
+	}
+
 	.header{
 		background-image: url("../img/companylogoBG.jpg");
 		background-size: cover;
