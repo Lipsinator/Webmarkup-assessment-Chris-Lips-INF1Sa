@@ -1,7 +1,7 @@
 /* this code is the same on all platforms */
 @font-face {
 		font-family: Berlinsans;
-		src: url(../fonts/BERLINSANS.ttf);
+		src: url(.././fonts/BERLINSANS.ttf);
 	}
 
 	h1{
