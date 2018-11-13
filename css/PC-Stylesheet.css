@@ -50,9 +50,8 @@
 		color: #ffffff;
 		font-size: 5em;
 		letter-spacing: 5px;
-		font-family: Berlin sans, serif;
+		font-family: Berlinsans, serif;
 		text-align: center;
-		height: cover;
 		padding-top: 60px;
 		text-shadow:
 			-2px -2px 0 #000,
@@ -95,14 +94,13 @@
 
 	}
 
-	li{
-		float: center;
+	.li{
 		vertical-align: center;
 		display: inline-block;
 	}
 
 
-	li a {
+	.li a {
 		display: block;
 		color: #ffffff;
 		text-align: center;
@@ -347,7 +345,7 @@
 		height: 851px;
 		width: 99.8%;
 		border-style: solid;
-		border-color: #ffffff;
+		border-color: #707070;
 		border-width: 1px;
 		border-top: 0;
 		border-bottom: 0;

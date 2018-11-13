@@ -28,10 +28,9 @@
 	.company{
 		color: #ffffff;
 		font-size: 6em;
-		font-family: Berlin sans, serif;
+		font-family: Berlinsans, serif;
 		text-align: center;
 		letter-spacing: 5px;
-		height: cover;
 		padding-top: 50px;
 		text-shadow:
 			-2px -2px 0 #000,
@@ -74,13 +73,13 @@
 		height: 40px;
 	}
 
-	li{
+	.li{
 		vertical-align: center;
 		display: inline-block;
 	}
 
 
-	li a {
+	.li a {
 		display: block;
 		color: #ffffff;
 		padding: 2px 16px;

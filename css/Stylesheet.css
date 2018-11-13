@@ -1,6 +1,6 @@
 /* this code is the same on all platforms */
 @font-face {
-		font-family: Berlin sans;
+		font-family: Berlinsans;
 		src: url(../fonts/BERLINSANS.ttf);
 	}
 
@@ -20,12 +20,4 @@
 	::placeholder {
 		color: #AAAAAA;
 		opacity: 1; /* Firefox */
-	}
-
-	:-ms-input-placeholder { /* Internet Explorer 10-11 */
-		color: #AAAAAA;
-	}
-
-	::-ms-input-placeholder { /* Microsoft Edge */
-		color: #AAAAAA;
 	}
