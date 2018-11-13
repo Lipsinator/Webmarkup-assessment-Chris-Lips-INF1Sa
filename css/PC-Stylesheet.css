@@ -48,16 +48,17 @@
 
 	.company{
 		color: #ffffff;
-		font-size: 6em;
+		font-size: 5em;
+		letter-spacing: 5px;
 		font-family: Berlin sans, serif;
 		text-align: center;
 		height: cover;
-		padding-top: 50px;
+		padding-top: 60px;
 		text-shadow:
-			-3px -3px 0 #000,
-			3px -3px 0 #000,
-			-3px 3px 0 #000,
-			3px 3px 0 #000;
+			-2px -2px 0 #000,
+			2px -2px 0 #000,
+			-2px 2px 0 #000,
+			2px 2px 0 #000;
 	}
 
 	a{
@@ -132,7 +133,7 @@
 		margin: 0;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		font-family: Arial;
+		font-family: Arial, serif;
 		font-size: 4em;
 		color: #ffffff;
 		border-style: solid;
@@ -312,7 +313,7 @@
 		width: 100%;
 	}
 
-	.box{
+	.background > section{
 		width: 31%;	
 		height: 12em;
 		overflow: hidden;	
@@ -352,7 +353,7 @@
 		border-bottom: 0;
 	}
 
-	/* not for pc */
+	/* only for for pc */
 	.notforpc{
 		display: none;
 	}
