@@ -24,15 +24,26 @@
 		overflow: hidden;
 		float: left;
 		width: 100%;
+		margin-top: 13px;
 	}
 
 	.company{
 		color: #ffffff;
 		font-size: 2.7em;
 		font-family: Berlin sans, serif;
-		text-align: center;
+		text-align: middle;
 		padding-top: 18px;
+		padding-left: 14px;
+		position: absolute;
+	}
 
+	.header{
+		background-image: url("../img/companylogoBG.jpg");
+		background-size: cover;
+		background-position: center;
+		height: 80px;
+		width: 100%;
+		float: left;
 	}
 
 	nav{
@@ -67,14 +78,6 @@
 		text-decoration: none;
 	}
 
-	.header{
-		background-image: url("../img/companylogoBG.jpg");
-		background-size: cover;
-		background-position: center;
-		height: 80px;
-		width: 100%;
-		float: left;
-	}
 
 	.titles{
 		background-color: #2699fb;
@@ -93,44 +96,32 @@
 
 
 	/* code for index.html */
-	.foto1{
-		width: 97%;
-		height: 150px;	
-		background-image: url("../img/product3.jpg");
-		background-size: cover;
-		background-position: center;
+	.fotosindex{
+		width: 100%;
 		float: left;
-		margin: 0.3em;
 	}
 
-	.foto2{
-		width: 97%;
-		height: 150px;					
-		background-image: url("../img/product8.jpg");
-		background-size: cover;
-		background-position: center;
+	.boxindexmobile{
+		height: 140px;
+		width: 97.7%;
+		margin: 4px;	
+		overflow: hidden;
 		float: left;
-		margin: 0.3em;
 	}
 
-	.foto3{
-		width: 97%;
-		height: 150px;				
-		background-image: url("../img/product6.jpg");
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin: 0.3em;
+	#foto1{
+		width: 100%;
+		margin-top: -16px;
 	}
-
-	.foto4{
-		width: 97%;
-		height: 150px;	
-		background-image: url("../img/product9.jpg");
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin: 0.3em;
+	#foto2{
+		width: 100%;
+		margin-top: -65px;
+	}
+	#foto3{
+		margin-top: -47px;
+	}
+	#foto4{
+		margin-top: -25px;
 	}
 
 	/* not for mobile */
@@ -267,176 +258,77 @@
 
 
 	/* code for product.html */
-	.foto5{
-		background-image: url("../img/product1.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 0.9em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+	#foto5{
+		margin-top: -30px;
+		width: 100%;
 	}
-	.foto6{
-		background-image: url("../img/product2.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto6{
+		width: 100%;
+		margin-top: -5px;
+	}
+
+	#foto7{
+		height: 100%;
+		margin-left: -40px;
+	}
+
+	#foto8{
+		width: 100%;
+		margin-top: -20px;
+	}
+
+	#foto9{
+		width: 100%;
+		margin-top: -15px;
+	}
+
+	#foto10{
+		width: 100%;
+		margin-top: -25px;
 
 	}
-	.foto7{
-		background-image: url("../img/product3.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		margin-top: 1.3em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto11{
+		width: 100%;
+		margin-top: -10px;
 	}
-	.foto8{
-		background-image: url("../img/product4.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto12{
+		width: 100%;
+		margin-top: -30px;
 	}
-	.foto9{
-		background-image: url("../img/product5.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto13{
+		height: 100%;
+		margin-left: -10px;
 	}
-	.foto10{
-		background-image: url("../img/product6.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto14{
+		height: 100%;
+		margin-bottom: -15px;
 	}
-	.foto11{
-		background-image: url("../img/product7.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto15{
+		width: 100%;
+		margin-top: -150px;
 	}
-	.foto12{
-		background-image: url("../img/product8.jpg");
-		width: 90%;
-		height: 12em;	
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+
+	#foto16{
+		width: 100%;
+		margin-top: -10px;
 	}
-	.foto13{
-		background-image: url("../img/product9.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
+
+	.box{
+		width: 90.6%;	
+		height: 12em;
+		overflow: hidden;	
 		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
+		margin-left: 16px;
+		margin-top: 16px;
 		border-style: solid;
 		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto14{
-		background-image: url("../img/product10.jpg");
-		width: 90%;
-		height: 12em;	
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto15{
-		background-image: url("../img/product11.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
-	}
-	.foto16{
-		background-image: url("../img/product12.jpg");
-		width: 90%;
-		height: 12em;		
-		background-size: cover;
-		background-position: center;
-		float: left;
-		margin-left: 1.1em;
-		margin-top: 1.1em;
-		margin-right: 1.1em;
-		margin-bottom: 1.1em;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #707070;
+		border-color: #AAAAAA;
 	}
 
 

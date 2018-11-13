@@ -60,6 +60,17 @@
 			3px 3px 0 #000;
 	}
 
+
+	.header{
+		background-image: url("../img/companylogoBG.jpg");
+		background-size: cover;
+		background-position: center;
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+
+
 	nav{
 		background-color: #707070;
 		width: 99.8%;
@@ -94,14 +105,7 @@
 		text-decoration: none;
 	}
 
-	.header{
-		background-image: url("../img/companylogoBG.jpg");
-		background-size: cover;
-		background-position: center;
-		height: 200px;
-		width: 100%;
-		float: left;
-	}
+
 
 	.titles{
 		background-color: #2699fb;
@@ -145,11 +149,21 @@
 		margin: auto;
 	}
 
+	.fotos2{
+		height: 400px;
+		overflow: hidden;
+		width: 100%;
+		float: left;
+		margin: auto;
+	}
+
 	#foto1{
 		margin-top: -35px;
+		width: 100%;
 	}
 	#foto2{
 		margin-top: -150px;
+		width: 100%;
 	}
 	#foto3{
 		margin-top: -115px;
@@ -303,7 +317,7 @@
 		margin-top: 15px;
 		border-style: solid;
 		border-width: 1px;
-		border-color: #707070;
+		border-color: #AAAAAA;
 	}
 
 	.productcatalog{
